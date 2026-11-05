@@ -24,6 +24,10 @@ feed = []
 while True:
     new_posts = fetch_page(page)
 
+    if not new_posts:
+        print("No more posts.")
+        break
+
     for post in new_posts:
         feed.append(post)
 
