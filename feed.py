@@ -36,8 +36,8 @@ while True:
         print("-", post)
 
     print(f"\nLoaded {len(feed)} posts")
-
-    action = input("\nScroll? (y/n): ")
+    
+    action = input("\nScroll? (y/n): ").strip().lower()
 
     if action == "n":
         break
