@@ -38,7 +38,6 @@ while True:
     if action == "n":
         break
 
-    page = 0
+    page += 1
 
 print("Session ended.")
-
