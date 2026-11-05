@@ -30,7 +30,7 @@ while True:
 
     for post in new_posts:
         feed.append(post)
-
+        
     print("\nYour Feed:")
     for post in feed:
         print("-", post)
